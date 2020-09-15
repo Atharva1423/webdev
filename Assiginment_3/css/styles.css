@@ -1,0 +1,67 @@
+header{
+	border-bottom: 5px solid black
+}
+
+.top{
+	text-align: center;
+	font-size: 150%;
+	color: green;
+}
+
+.container-fluid{
+	margin-top: 5%;
+}
+
+a{
+	color: black
+}
+
+.container-fluid div{
+	background-color: cyan;
+	border: 3px solid black;
+	margin-bottom: 3%;
+}
+
+.head-text{
+	text-align: left;
+	padding-top: 3%;
+	margin-left: 3%;
+	font-size: 200%;
+}
+
+ button.navbar-toggle, .icon-bar {
+
+  border: 1px solid #61122f;
+
+  }
+
+#collapsable-nav .glyphicon{
+	font-size: 150%;
+}
+/********* SMALL DEVICES ********/
+@media (max-width: 767px){
+
+
+.head-text{
+	float: left;
+}
+	.button-tile{
+		margin-top: 10px;
+	}
+
+	#collapsable-nav{
+		margin-top: 10%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	}
+/********* EXTRA SMALL DEVICES ********/
+@media (min-width: 768px){
+
+	ul{
+		display: none;
+	}
+	
+}
+
